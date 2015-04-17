@@ -638,19 +638,27 @@ footer .container {
   border-radius: 16px;
   width: 15em;
   font-size: 1.5em;
-  height: 400px;
   color: #ffffff;
   width: 100%;
   margin: 0;
 }
-#contact .container .row #contact-list {
+footer .container .row {
+  padding-top: 2em;
+}
+footer .container .row #contactForm label {
+  padding: 0 1em 0.5em 0;
+}
+footer .container .row #contact-list {
   padding: 2em;
   text-align: center;
 }
-#contact .container .row #contact-list li {
+footer .container .row #contact-list li {
   display: inline;
   font-size: 1.5em;
   margin-left: 1em;
+}
+footer .container .row #contact-list li a {
+  text-decoration: none;
 }
 
 /* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
