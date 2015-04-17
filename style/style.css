@@ -275,9 +275,8 @@ header #mastHead .headItem #menu li {
   text-transform: capitalize;
 }
 header #mastHead .headItem #menu li:hover {
-  cursor: pointer;
-  color: #ffffff;
   background-color: #ffc606;
+  color: #ffffff;
 }
 #carousel_1 #carouselHeader {
   margin-top: 1em;
@@ -512,7 +511,7 @@ header #mastHead .headItem #menu li:hover {
   background-position: right;
 }
 #carousel_2 #carouselProducts #thumbnail_3 {
-  background: url("../img/cloth.jpg");
+  background: url("../img/cloth.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
