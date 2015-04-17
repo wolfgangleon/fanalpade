@@ -147,6 +147,10 @@ table {
 .fontCapriola {
   font-family: 'Capriola', sans-serif;
 }
+.hover {
+  background-color: #ffc606;
+  color: #ffffff;
+}
 .carouselDefault {
   margin-top: 1em;
 }
