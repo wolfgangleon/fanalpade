@@ -151,6 +151,39 @@ table {
   background-color: #ffc606;
   color: #ffffff;
 }
+.containerDefault {
+  margin: 3em auto;
+  padding-right: 0;
+  padding-left: 0;
+}
+.panelDefault {
+  letter-spacing: -1px;
+  font-family: 'Capriola', sans-serif;
+  margin: 1em 0 1em 1em;
+  padding: 2em;
+  -webkit-border-top-right-radius: 16px;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topright: 16px;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-border-radius: 16px;
+  -o-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  border-radius: 16px;
+  width: 15em;
+  font-size: 1.5em;
+}
 .carouselDefault {
   margin-top: 1em;
 }
@@ -540,6 +573,84 @@ header #mastHead .headItem #menu li:hover {
   border-radius: 16px;
   padding: 2em;
   margin-left: 35%;
+}
+#reviews .container {
+  margin: 3em auto;
+  padding-right: 0;
+  padding-left: 0;
+}
+#reviews .container .panel {
+  letter-spacing: -1px;
+  font-family: 'Capriola', sans-serif;
+  margin: 1em 0 1em 1em;
+  padding: 2em;
+  -webkit-border-top-right-radius: 16px;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topright: 16px;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-border-radius: 16px;
+  -o-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  border-radius: 16px;
+  width: 15em;
+  font-size: 1.5em;
+}
+footer {
+  padding-bottom: 2em;
+}
+footer .container {
+  background-color: #ffc606;
+  letter-spacing: -1px;
+  font-family: 'Capriola', sans-serif;
+  margin: 1em 0 1em 1em;
+  padding: 2em;
+  -webkit-border-top-right-radius: 16px;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topright: 16px;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-border-radius: 16px;
+  -o-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  border-radius: 16px;
+  width: 15em;
+  font-size: 1.5em;
+  height: 400px;
+  color: #ffffff;
+  width: 100%;
+  margin: 0;
+}
+#contact .container .row #contact-list {
+  padding: 2em;
+  text-align: center;
+}
+#contact .container .row #contact-list li {
+  display: inline;
+  font-size: 1.5em;
+  margin-left: 1em;
 }
 
 /* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */

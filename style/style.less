@@ -110,18 +110,10 @@ header {
 	padding-bottom:1em;
 	
 	.container {
-		margin:@margin+2 auto;
-		padding-right:0;
-		padding-left:0;
+		.containerDefault;
 
 		.btn {
-			letter-spacing:-1px;
-			.fontCapriola;
-			margin:@margin 0 @margin @margin;
-			padding:@padding+1;
-			.border-radius(16px);
-			width:15em;
-			font-size:@fontSize+0.5;
+			.panelDefault;
 
 			&:hover {
 				.hover;
@@ -168,6 +160,50 @@ header {
 
 		.panel {
 			.panelCarousel(35%);
+		}
+	}
+}
+
+#reviews {
+	.container {
+		.containerDefault;
+
+		.panel {
+			.panelDefault;
+		}
+	}
+}
+
+footer {
+	.container{
+		.backgroundColor(@light-orange);
+		.panelDefault;
+		height:400px;
+		color:@light;
+		width:100%;
+		margin:0;
+	}
+
+	padding-bottom:@padding+1;
+}
+
+#contact {
+	
+	.container {
+
+		.row {
+
+			#contact-list {
+				padding:2em;
+				text-align:center;
+
+
+				li {
+					display:inline;
+					font-size:@fontSize+0.5;
+					margin-left:1em;
+				}
+			}
 		}
 	}
 }
