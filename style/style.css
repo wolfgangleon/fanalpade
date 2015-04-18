@@ -231,6 +231,7 @@ table {
 .carouselDefault .carousel-caption h3 {
   font-size: 2em;
   margin-bottom: 0.5em;
+  color: #33cccc;
 }
 .carouselDefault .carousel-caption p {
   line-height: 1.8em;
@@ -311,6 +312,10 @@ header #mastHead .headItem #menu li:hover {
   background-color: #ffc606;
   color: #ffffff;
 }
+header #mastHead .headItem #menu li a {
+  text-decoration: none;
+  color: inherit;
+}
 #carousel_1 #carouselHeader {
   margin-top: 1em;
 }
@@ -358,6 +363,7 @@ header #mastHead .headItem #menu li:hover {
 #carousel_1 #carouselHeader .carousel-caption h3 {
   font-size: 2em;
   margin-bottom: 0.5em;
+  color: #33cccc;
 }
 #carousel_1 #carouselHeader .carousel-caption p {
   line-height: 1.8em;
@@ -477,6 +483,7 @@ header #mastHead .headItem #menu li:hover {
 #info #mission span {
   font-weight: 600;
   text-transform: uppercase;
+  color: #33cccc;
 }
 #carousel_2 #carouselProducts {
   margin-top: 1em;
@@ -525,6 +532,7 @@ header #mastHead .headItem #menu li:hover {
 #carousel_2 #carouselProducts .carousel-caption h3 {
   font-size: 2em;
   margin-bottom: 0.5em;
+  color: #33cccc;
 }
 #carousel_2 #carouselProducts .carousel-caption p {
   line-height: 1.8em;
@@ -606,6 +614,10 @@ header #mastHead .headItem #menu li:hover {
   border-radius: 16px;
   width: 15em;
   font-size: 1.5em;
+}
+#reviews .container .panel:hover {
+  background-color: #ffc606;
+  color: #ffffff;
 }
 #reviews .container .panel .panel-body .row .review-thumbnail {
   border-radius: 50%;

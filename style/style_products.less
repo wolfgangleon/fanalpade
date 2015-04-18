@@ -1,0 +1,79 @@
+//reset css
+@import "components/reset.less";
+
+// http://lesselements.com
+@import "components/elements.less";
+
+//variables
+@import "components/variables.less";
+
+//mixins
+@import "components/mixins.less";
+
+
+body{
+	.backgroundColor(#33CCCC);
+	padding:0 @padding;
+}
+
+header {
+	padding-bottom:@padding;
+
+	#mastHead {
+
+		display:inline;
+		padding:@padding+1;
+		.fontVerdana;
+		color:@dark;
+
+		.headItem {
+			display:inline-block;
+
+			#logo {
+				.left;
+				position:absolute;
+				z-index:@index+10;
+				height:12em;
+				left:1em;
+				top:-1em;
+			}
+
+			#coTitle {
+				color:@template-color;
+				font-size:@fontSize+4;
+				.fontCapriola;
+				.text-shadow;
+				margin-top:@margin/1.6;
+				margin-left:@margin+1.5;
+				letter-spacing:-5px;
+			}
+
+			#menu {
+				position:absolute;
+				right:3em;
+				z-index:50;
+				.fontCapriola;
+
+				li {
+					.border-radius(16px);
+					display:inline-block;
+					padding:@padding;
+					.capitalize;
+
+
+					&:hover {
+						.hover;
+					}
+
+					a {
+						text-decoration:none;
+						color:inherit;
+					}
+				}
+				
+			}
+		}
+
+	}
+		
+}
