@@ -152,7 +152,7 @@ table {
   color: #ffffff;
 }
 .containerDefault {
-  margin: 3em auto;
+  margin: 1em auto;
   padding-right: 0;
   padding-left: 0;
 }
@@ -413,15 +413,15 @@ header #mastHead .headItem #menu li a {
   padding: 2em;
   margin-left: 35%;
 }
-#info {
-  padding-bottom: 1em;
-}
 #info .container {
-  margin: 3em auto;
+  margin: 1em auto;
   padding-right: 0;
   padding-left: 0;
 }
-#info .container .btn {
+#info .container .container {
+  text-align: center;
+}
+#info .container .container .btn {
   letter-spacing: -1px;
   font-family: 'Capriola', sans-serif;
   margin: 1em 0 1em 1em;
@@ -448,8 +448,9 @@ header #mastHead .headItem #menu li a {
   border-radius: 16px;
   width: 15em;
   font-size: 1.5em;
+  margin: 1em 0.5em;
 }
-#info .container .btn:hover {
+#info .container .container .btn:hover {
   background-color: #ffc606;
   color: #ffffff;
 }
@@ -484,6 +485,9 @@ header #mastHead .headItem #menu li a {
   font-weight: 600;
   text-transform: uppercase;
   color: #33cccc;
+}
+#carousel_2 {
+  margin-top: 5em;
 }
 #carousel_2 #carouselProducts {
   margin-top: 1em;
@@ -583,7 +587,7 @@ header #mastHead .headItem #menu li a {
   margin-left: 35%;
 }
 #reviews .container {
-  margin: 3em auto;
+  margin: 1em auto;
   padding-right: 0;
   padding-left: 0;
 }
