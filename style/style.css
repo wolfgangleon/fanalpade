@@ -159,7 +159,7 @@ table {
 .panelDefault {
   letter-spacing: -1px;
   font-family: 'Capriola', sans-serif;
-  margin: 1em 0 1em 1em;
+  margin: 0 auto;
   padding: 2em;
   -webkit-border-top-right-radius: 16px;
   -webkit-border-bottom-right-radius: 0;
@@ -424,7 +424,7 @@ header #mastHead .headItem #menu li a {
 #info .container .container .btn {
   letter-spacing: -1px;
   font-family: 'Capriola', sans-serif;
-  margin: 1em 0 1em 1em;
+  margin: 0 auto;
   padding: 2em;
   -webkit-border-top-right-radius: 16px;
   -webkit-border-bottom-right-radius: 0;
@@ -594,7 +594,7 @@ header #mastHead .headItem #menu li a {
 #reviews .container .panel {
   letter-spacing: -1px;
   font-family: 'Capriola', sans-serif;
-  margin: 1em 0 1em 1em;
+  margin: 0 auto;
   padding: 2em;
   -webkit-border-top-right-radius: 16px;
   -webkit-border-bottom-right-radius: 0;
@@ -666,7 +666,7 @@ footer .container {
   background-color: #ffc606;
   letter-spacing: -1px;
   font-family: 'Capriola', sans-serif;
-  margin: 1em 0 1em 1em;
+  margin: 0 auto;
   padding: 2em;
   -webkit-border-top-right-radius: 16px;
   -webkit-border-bottom-right-radius: 0;
