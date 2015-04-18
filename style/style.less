@@ -12,7 +12,7 @@
 
 
 body{
-	.backgroundColor(#33CCCC);
+	.backgroundColor(@template-color);
 	padding:0 @padding;
 
 }
@@ -40,7 +40,7 @@ header {
 			}
 
 			#coTitle {
-				color:@template-color;
+				color:@light;
 				font-size:@fontSize+4;
 				.fontCapriola;
 				.text-shadow;
@@ -61,9 +61,13 @@ header {
 					padding:@padding;
 					.capitalize;
 
-
 					&:hover {
 						.hover;
+					}
+
+					a {
+						text-decoration:none;
+						color:inherit;
 					}
 				}
 				
@@ -133,6 +137,7 @@ header {
 		span {
 			font-weight:600;
 			text-transform:uppercase;
+			color:@template-color;
 		}
 	}
 }
@@ -170,6 +175,10 @@ header {
 
 		.panel {
 			.panelDefault;
+
+			&:hover {
+				.hover;
+			}
 
 			.panel-body {
 
