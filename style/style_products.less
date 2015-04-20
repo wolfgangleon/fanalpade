@@ -12,8 +12,9 @@
 
 
 body{
-	.backgroundColor(#33CCCC);
+	.backgroundColor(@template-color);
 	padding:0 @padding;
+
 }
 
 header {
@@ -39,7 +40,7 @@ header {
 			}
 
 			#coTitle {
-				color:@template-color;
+				color:@light;
 				font-size:@fontSize+4;
 				.fontCapriola;
 				.text-shadow;
@@ -59,7 +60,6 @@ header {
 					display:inline-block;
 					padding:@padding;
 					.capitalize;
-
 
 					&:hover {
 						.hover;
