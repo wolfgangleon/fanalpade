@@ -18,68 +18,8 @@ body{
 }
 
 header {
-	padding-bottom:@padding;
-
-	#mastHead {
-
-		display:inline;
-		padding:@padding+1;
-		.fontVerdana;
-		color:@dark;
-
-		.headItem {
-			display:inline-block;
-
-			#logo {
-				.left;
-				position:absolute;
-				z-index:@index+10;
-				height:12em;
-				left:3em;
-				top:-0.5em;
-			}
-
-			#coTitle {
-				color:@light;
-				font-size:@fontSize+4;
-				.fontCapriola;
-				.text-shadow;
-				margin-top:@margin/1.6;
-				margin-left:@margin+2;
-				letter-spacing:-5px;
-			}
-
-			#menu {
-				position:absolute;
-				right:3em;
-				z-index:50;
-				.fontCapriola;
-
-				li {
-					.border-radius(16px);
-					display:inline-block;
-					padding:@padding;
-					.capitalize;
-
-					&:hover {
-						.hover;
-					}
-
-					a {
-						text-decoration:none;
-						color:inherit;
-					}
-				}
-				
-			}
-		}
-
-	}
-		
+	.headerDefault;		
 }
-
-
-
 
 
 footer {

@@ -17,5 +17,18 @@ $(document).ready(function(){
 	  isFitWidth: true
 	});
 
+	//Set google maps
+	var mapOptions = {
+	    center: new google.maps.LatLng(38.4694497,-98.6489868),
+	    zoom: 5,
+	    streetViewControl: false,
+	    mapTypeId: google.maps.MapTypeId.ROADMAP,
+	    zoomControlOptions: {
+	      style: google.maps.ZoomControlStyle.SMALL
+	    }
+	};
+
+	var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
 	//$('#carouselHeader .thumbnail').height( screenHeight ) //Set screen size
 });

@@ -67,9 +67,67 @@ border-radius: @radius;
 }
 
 
-.carouselDefault {
+.headerDefault {
+	padding-bottom:@padding;
 
-	margin-top:@margin;
+	#mastHead {
+
+		display:inline;
+		padding:@padding+1;
+		.fontVerdana;
+		color:@dark;
+
+		.headItem {
+			display:inline-block;
+
+			#logo {
+				.left;
+				position:absolute;
+				z-index:@index+10;
+				height:8em;
+				left:6em;
+				top:-0.5em;
+			}
+
+			#coTitle {
+				color:@light;
+				font-size:@fontSize+4;
+				.fontCapriola;
+				.text-shadow;
+				margin-top:0.1em;
+				margin-left:@margin+2;
+				letter-spacing:-5px;
+			}
+
+			#menu {
+				position:absolute;
+				right:3em;
+				z-index:50;
+				.fontCapriola;
+
+				li {
+					.border-radius(16px);
+					display:inline-block;
+					padding:@padding;
+					.capitalize;
+
+					&:hover {
+						.hover;
+					}
+
+					a {
+						text-decoration:none;
+						color:inherit;
+					}
+				}
+				
+			}
+		}
+
+	}
+}
+
+.carouselDefault {
 
 	.carousel-indicators {
 		bottom:30px;
